@@ -1,0 +1,69 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradiente de fundo */
+    color: white;
+    margin: 0;
+    padding: 0;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgba(255, 255, 255, 0.1); /* Fundo transparente */
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s, background 0.3s; /* Transição suave */
+}
+
+li:hover {
+    transform: translateY(-5px); /* Efeito de elevação */
+    background: rgba(255, 255, 255, 0.2); /* Muda a cor ao passar o mouse */
+}
+
+button {
+    background: linear-gradient(45deg, #4c9efc, #0056b3); /* Gradiente nos botões */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background: linear-gradient(45deg, #0056b3, #4c9efc); /* Inverte o gradiente ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho ao passar o mouse */
+}
+
+button:active {
+    transform: scale(0.95); /* Diminui o tamanho ao clicar */
+}
+
+@media (max-width: 600px) {
+    h2 {
+        font-size: 1.5rem; /* Tamanho de fonte menor em telas pequenas */
+    }
+
+    li {
+        font-size: 0.9rem; /* Tamanho de fonte menor na lista */
+    }
+
+    button {
+        padding: 8px 12px; /* Ajusta o padding nos botões para telas pequenas */
+    }
+}

@@ -1,0 +1,27 @@
+/* globals.css */
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Cor de fundo padrão */
+  font-family: Arial, sans-serif;
+  color: #333; /* Cor do texto padrão */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+a {
+  color: #3f87a6; /* Cor dos links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* Efeito ao passar o mouse sobre os links */
+}
